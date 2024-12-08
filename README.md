@@ -23,7 +23,7 @@ This is a Property Management System that allows users to manage properties with
 
 Below is an example of the dashboard:
 
-![Dashboard Example](../assets/image.png)
+![Dashboard Example](https://raw.githubusercontent.com/bonfacemecha/property-management/refs/heads/main/property_management_backend/public/assets/image.png)
 
 
 
