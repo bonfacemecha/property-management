@@ -23,7 +23,7 @@ This is a Property Management System that allows users to manage properties with
 
 Below is an example of the dashboard:
 
-![Dashboard Example](assets/image.png)
+![Dashboard Example](../assets/image.png)
 
 
 
