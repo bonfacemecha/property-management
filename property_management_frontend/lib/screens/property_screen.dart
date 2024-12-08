@@ -256,14 +256,17 @@ class _PropertyScreenState extends State<PropertyScreen> {
                                         Text(property['name'] ?? 'Unknown')),
                                     DataCell(
                                         Text(property['address'] ?? 'Unknown')),
-                                   DataCell(
-  Text(
-    property['price'] != null 
-        ? NumberFormat.currency(locale: 'en_US', symbol: '\$').format(double.parse(property['price']))
-        : 'Unknown',
-  ),
-),
-
+                                    DataCell(
+                                      Text(
+                                        property['price'] != null
+                                            ? NumberFormat.currency(
+                                                    locale: 'en_US',
+                                                    symbol: '\$')
+                                                .format(double.parse(
+                                                    property['price']))
+                                            : 'Unknown',
+                                      ),
+                                    ),
                                     DataCell(
                                       Row(
                                         mainAxisSize: MainAxisSize.min,
